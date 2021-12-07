@@ -18,7 +18,7 @@
 }
 
 .about-me__knowledge {
-  
+
   &:not(:last-child) {
     margin-bottom: 16px;
   }
@@ -113,7 +113,9 @@
 }
 
 @include breakpoint-down (600px) {
-
+  .about-me__knowledge-pgorgress-wrapper{
+    z-index: -1;
+  }
   .about-me__charge-list {
     margin-bottom: -16px;
   }

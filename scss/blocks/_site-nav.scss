@@ -97,7 +97,7 @@
 }
 
 .site-nav__navigation-txt {
-  text-transform: uppercase;  
+  text-transform: uppercase;
 }
 
 .site-nav__social-list {
@@ -115,7 +115,7 @@
   }
 }
 
-.site-nav__social-link {  
+.site-nav__social-link {
   color: $color-primary;
 
   &:hover {
@@ -143,7 +143,7 @@
 
   .site-nav__content {
     position: absolute;
-    z-index: 1;
+    z-index: 100 ;
     left: 0;
     top: 0;
     width: 300px;
@@ -162,7 +162,7 @@
 }
 
 @include breakpoint-down (320px) {
-  
+
   .site-nav__content {
     width: 100%;
   }
