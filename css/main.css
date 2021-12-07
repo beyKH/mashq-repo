@@ -807,6 +807,9 @@ img {
 .pictures-list__figure {
   margin: 0;
 }
+.pictures-list__img{
+  width: 100%;
+}
 
 .pictures-list__img:hover {
   opacity: 0.7;
